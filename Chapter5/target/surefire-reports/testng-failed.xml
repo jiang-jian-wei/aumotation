@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.test.learning.TestCases">
+        <methods>
+          <include name="testBeforeClass"/>
+          <include name="testAfterMethod"/>
+          <include name="testAfterClass"/>
+          <include name="testAfterSuit"/>
+          <include name="testBeforeMethod"/>
+          <include name="testBeforeSuit"/>
+        </methods>
+      </class> <!-- com.test.learning.TestCases -->
+      <class name="com.test.learning.parameter.ParameterTest">
+        <methods>
+          <include name="parameterTest"/>
+        </methods>
+      </class> <!-- com.test.learning.parameter.ParameterTest -->
+      <class name="com.test.learning.TimeOutTest">
+        <methods>
+          <include name="timeOutFailed"/>
+        </methods>
+      </class> <!-- com.test.learning.TimeOutTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

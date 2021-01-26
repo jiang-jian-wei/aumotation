@@ -7,11 +7,13 @@ public class TestCases {
     @Test
     public void testOne (){
         System.out.println("testOne这是第一个测试用例！！！");
+        System.out.printf("Thread Id: %s%n",Thread.currentThread().getId());
     }
 
     @Test
     public void testTwo (){
         System.out.println("testTwo，this is the second TestCase!!!");
+        System.out.printf("Thread Id: %s%n",Thread.currentThread().getId());
     }
 
     @BeforeMethod

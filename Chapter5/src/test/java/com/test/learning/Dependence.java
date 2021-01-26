@@ -6,7 +6,7 @@ public class Dependence {
     @Test
     public void test1(){
         System.out.println("run test1");
-        throw new RuntimeException();
+//        throw new RuntimeException();
     }
 
     @Test(dependsOnMethods = {"test1"})

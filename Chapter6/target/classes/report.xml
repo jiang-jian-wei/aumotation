@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="mySuite">
+    <test name="reportDemo">
+        <classes>
+            <class name="com.tester.extent.demo.TestDemo"/>
+
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.tester.extent.demo.ExtentTestNGIReporterListener"/>
+    </listeners>
+
+</suite>

@@ -1,0 +1,16 @@
+com\test\learning\groups\GroupsOnClass3.class
+com\test\learning\groups\GroupsOnMethod.class
+com\test\learning\groups\GroupsOnClass1.class
+com\test\learning\multithread\MultiThreadTest.class
+com\test\learning\ExceptedException.class
+com\test\learning\multithread\MultiThreadOnXml.class
+com\test\learning\suit\LoginTest.class
+com\test\learning\suit\PayTest.class
+com\test\learning\suit\SuitConfig.class
+com\test\learning\TestCases.class
+com\test\learning\parameter\DataProviderTest.class
+com\test\learning\IgnoreTest.class
+com\test\learning\parameter\ParameterTest.class
+com\test\learning\TimeOutTest.class
+com\test\learning\Dependence.class
+com\test\learning\groups\GroupsOnClass2.class

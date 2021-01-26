@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="1" total="26" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="5108" started-at="2021-01-26T14:27:58Z" finished-at="2021-01-26T14:28:03Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="5108" started-at="2021-01-26T14:27:58Z" finished-at="2021-01-26T14:28:03Z">
+      <class name="com.test.learning.multithread.MultiThreadTest">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.test.learning.multithread.MultiThreadTest@7e0babb1]" name="test1" duration-ms="0" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.test.learning.multithread.MultiThreadTest@7e0babb1]" name="test1" duration-ms="16" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.test.learning.multithread.MultiThreadTest@7e0babb1]" name="test1" duration-ms="16" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.test.learning.multithread.MultiThreadTest@7e0babb1]" name="test1" duration-ms="0" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.test.learning.multithread.MultiThreadTest@7e0babb1]" name="test1" duration-ms="0" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.test.learning.multithread.MultiThreadTest@7e0babb1]" name="test1" duration-ms="0" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.test.learning.multithread.MultiThreadTest@7e0babb1]" name="test1" duration-ms="0" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.test.learning.multithread.MultiThreadTest@7e0babb1]" name="test1" duration-ms="0" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.test.learning.multithread.MultiThreadTest@7e0babb1]" name="test1" duration-ms="0" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.test.learning.multithread.MultiThreadTest@7e0babb1]" name="test1" duration-ms="0" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.test.learning.multithread.MultiThreadTest -->
+      <class name="com.test.learning.parameter.DataProviderTest">
+        <test-method status="PASS" signature="testDataProvide(java.lang.String, java.lang.String, int)[pri:0, instance:com.test.learning.parameter.DataProviderTest@6debcae2]" name="testDataProvide" duration-ms="0" started-at="2021-01-26T22:27:58Z" data-provider="data" finished-at="2021-01-26T22:27:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[小红]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[女]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvide -->
+        <test-method status="PASS" signature="test2(java.lang.String, java.lang.String, int)[pri:0, instance:com.test.learning.parameter.DataProviderTest@6debcae2]" name="test2" duration-ms="0" started-at="2021-01-26T22:27:58Z" data-provider="method" finished-at="2021-01-26T22:27:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[小燕子]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[女]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, int)[pri:0, instance:com.test.learning.parameter.DataProviderTest@6debcae2]" name="test1" duration-ms="0" started-at="2021-01-26T22:27:58Z" data-provider="method" finished-at="2021-01-26T22:27:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[张三]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[男]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2(java.lang.String, java.lang.String, int)[pri:0, instance:com.test.learning.parameter.DataProviderTest@6debcae2]" name="test2" duration-ms="0" started-at="2021-01-26T22:27:58Z" data-provider="method" finished-at="2021-01-26T22:27:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[小红]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[女]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="testDataProvide(java.lang.String, java.lang.String, int)[pri:0, instance:com.test.learning.parameter.DataProviderTest@6debcae2]" name="testDataProvide" duration-ms="0" started-at="2021-01-26T22:27:58Z" data-provider="data" finished-at="2021-01-26T22:27:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[李四]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[男]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvide -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, int)[pri:0, instance:com.test.learning.parameter.DataProviderTest@6debcae2]" name="test1" duration-ms="0" started-at="2021-01-26T22:27:58Z" data-provider="method" finished-at="2021-01-26T22:27:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[李四]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[男]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="testDataProvide(java.lang.String, java.lang.String, int)[pri:0, instance:com.test.learning.parameter.DataProviderTest@6debcae2]" name="testDataProvide" duration-ms="0" started-at="2021-01-26T22:27:58Z" data-provider="data" finished-at="2021-01-26T22:27:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[张三]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[男]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvide -->
+      </class> <!-- com.test.learning.parameter.DataProviderTest -->
+      <class name="com.test.learning.suit.LoginTest">
+        <test-method status="PASS" signature="loginTaoBao()[pri:0, instance:com.test.learning.suit.LoginTest@2ff4f00f]" name="loginTaoBao" duration-ms="0" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTaoBao -->
+      </class> <!-- com.test.learning.suit.LoginTest -->
+      <class name="com.test.learning.TestCases">
+        <test-method status="PASS" signature="testBeforeSuit()[pri:0, instance:com.test.learning.TestCases@66d33a]" name="testBeforeSuit" is-config="true" duration-ms="16" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeSuit -->
+        <test-method status="PASS" signature="testOne()[pri:0, instance:com.test.learning.TestCases@66d33a]" name="testOne" duration-ms="0" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="testAfterMethod()[pri:0, instance:com.test.learning.TestCases@66d33a]" name="testAfterMethod" is-config="true" duration-ms="0" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method status="PASS" signature="testBeforeClass()[pri:0, instance:com.test.learning.TestCases@66d33a]" name="testBeforeClass" is-config="true" duration-ms="0" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeClass -->
+        <test-method status="PASS" signature="testBeforeMethod()[pri:0, instance:com.test.learning.TestCases@66d33a]" name="testBeforeMethod" is-config="true" duration-ms="0" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod -->
+        <test-method status="PASS" signature="testBeforeMethod()[pri:0, instance:com.test.learning.TestCases@66d33a]" name="testBeforeMethod" is-config="true" duration-ms="0" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod -->
+        <test-method status="PASS" signature="testTwo()[pri:0, instance:com.test.learning.TestCases@66d33a]" name="testTwo" duration-ms="16" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method status="PASS" signature="testAfterClass()[pri:0, instance:com.test.learning.TestCases@66d33a]" name="testAfterClass" is-config="true" duration-ms="0" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterClass -->
+        <test-method status="PASS" signature="testAfterMethod()[pri:0, instance:com.test.learning.TestCases@66d33a]" name="testAfterMethod" is-config="true" duration-ms="0" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterMethod -->
+        <test-method status="PASS" signature="testAfterSuit()[pri:0, instance:com.test.learning.TestCases@66d33a]" name="testAfterSuit" is-config="true" duration-ms="0" started-at="2021-01-26T22:28:03Z" finished-at="2021-01-26T22:28:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterSuit -->
+      </class> <!-- com.test.learning.TestCases -->
+      <class name="com.test.learning.IgnoreTest">
+        <test-method status="PASS" signature="ignoreTestOne()[pri:0, instance:com.test.learning.IgnoreTest@7cf10a6f]" name="ignoreTestOne" duration-ms="0" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ignoreTestOne -->
+      </class> <!-- com.test.learning.IgnoreTest -->
+      <class name="com.test.learning.suit.PayTest">
+        <test-method status="PASS" signature="paySuccess()[pri:0, instance:com.test.learning.suit.PayTest@c818063]" name="paySuccess" duration-ms="0" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paySuccess -->
+      </class> <!-- com.test.learning.suit.PayTest -->
+      <class name="com.test.learning.parameter.ParameterTest">
+        <test-method status="FAIL" signature="parameterTest(java.lang.String, int)[pri:0, instance:com.test.learning.parameter.ParameterTest@5ba23b66]" name="parameterTest" duration-ms="0" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:27:58Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'name' is required by @Test on method parameterTest but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'name' is required by @Test on method parameterTest but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:568)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1020)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1110)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameterTest -->
+      </class> <!-- com.test.learning.parameter.ParameterTest -->
+      <class name="com.test.learning.TimeOutTest">
+        <test-method status="FAIL" signature="timeOutFailed()[pri:0, instance:com.test.learning.TimeOutTest@3f0ee7cb]" name="timeOutFailed" duration-ms="3015" started-at="2021-01-26T22:27:58Z" finished-at="2021-01-26T22:28:01Z">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method com.test.learning.TimeOutTest.timeOutFailed() didn't finish within the time-out 3000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method com.test.learning.TimeOutTest.timeOutFailed() didn't finish within the time-out 3000
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeOutFailed -->
+        <test-method status="PASS" signature="timeOutSuccess()[pri:0, instance:com.test.learning.TimeOutTest@3f0ee7cb]" name="timeOutSuccess" duration-ms="2015" started-at="2021-01-26T22:28:01Z" finished-at="2021-01-26T22:28:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeOutSuccess -->
+      </class> <!-- com.test.learning.TimeOutTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

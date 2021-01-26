@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="multiThread" parallel="tests" thread-count="3">
+
+    <test name="demo1">
+        <classes>
+            <class name="com.test.learning.multithread.MultiThreadOnXml"/>
+        </classes>
+    </test>
+
+    <test name="demo2">
+        <classes>
+            <class name="com.test.learning.TestCases"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.test.learning.ExtentTestNGIReporterListener"/>
+    </listeners>
+
+</suite>
