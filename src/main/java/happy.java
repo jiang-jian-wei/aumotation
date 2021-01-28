@@ -4,7 +4,7 @@ import java.util.Random;
 public class happy {
     public static void main(String[] args) {
         Random df = new Random();
-
+// 反对法
 //引用nextInt()方法
         int index = 10;
 
