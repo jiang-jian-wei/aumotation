@@ -12,12 +12,15 @@
         <module>Chapter5</module>
         <module>Chapter6</module>
         <module>Chapter9</module>
+        <module>Charpter10</module>
     </modules>
     <properties>
         <mytestNg.version>6.10</mytestNg.version>
         <testng.report.version>1.3.1</testng.report.version>
         <httpClient.version>4.1.2</httpClient.version>
         <extentReports.version>3.0.6</extentReports.version>
+        <json.version>20201115</json.version>
+        <spring.boot.version>2.4.2</spring.boot.version>
     </properties>
 
     <dependencyManagement>
@@ -45,6 +48,18 @@
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient</artifactId>
                 <version>${httpClient.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.json</groupId>
+                <artifactId>json</artifactId>
+                <version>${json.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>${spring.boot.version}</version>
             </dependency>
 
         </dependencies>

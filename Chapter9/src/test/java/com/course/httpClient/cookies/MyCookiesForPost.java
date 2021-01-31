@@ -7,13 +7,12 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
+import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.util.EmptyStackException;
 import java.util.ResourceBundle;
 
 public class MyCookiesForPost {
@@ -51,10 +50,13 @@ public class MyCookiesForPost {
         HttpPost post = new HttpPost(url);
         DefaultHttpClient client = new DefaultHttpClient();
 
-        StringEntity stringEntity = new StringEntity("{\n" +
-                "        \"name\": \"huhansan\",\n" +
-                "        \"age\": \"17\"\n" +
-                "      }","utf-8");
+        JSONObject param=new JSONObject();
+        param.put("name","huhansan");
+        param.put("age","17");
+
+
+//        StringEntity stringEntity = new StringEntity("{\"name\": \"huhansan\", \"age\": \"17\" }","utf-8");
+        StringEntity stringEntity = new StringEntity(param.toString(),"utf-8");
 
         post.setEntity(stringEntity);
         client.setCookieStore(store);
@@ -64,6 +66,12 @@ public class MyCookiesForPost {
         HttpResponse response = client.execute(post);
         String result=EntityUtils.toString(response.getEntity());
         System.out.println(result);
+        JSONObject resultJson = new JSONObject(result);
+
+
+        String status = resultJson.getString("status");
+
+        Assert.assertEquals(status,"1");
 
 
     }

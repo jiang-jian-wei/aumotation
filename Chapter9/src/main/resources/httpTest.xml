@@ -5,6 +5,7 @@
         <classes>
             <class name="com.course.httpClient.demo.MyHttpClient"/>
             <class name="com.course.httpClient.cookies.MyCookiesForGet"/>
+            <class name="com.course.httpClient.cookies.MyCookiesForPost"/>
         </classes>
 
     </test>
