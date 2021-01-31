@@ -18,14 +18,16 @@
     "request": {
       "uri": "/postwithparam",
       "method": "post",
-      "forms": {
+      "json": {
         "name": "huahansan",
         "age": "19"
       }
     },
     "response":{
-      "text": "我胡汉三带着参数回来了"
-
+      "text":"我胡汉三带着参数回来了",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
     }
   }
 

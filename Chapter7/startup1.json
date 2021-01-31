@@ -11,6 +11,13 @@
         "Content-Type":"text/html;charset=utf-8"
       }
     }
+  },
+  {
+    "description":"这是我我的第一个mock测试例子",
+    "request":{
+      "uri":"/demo1"
+    },
+    "redirectTo": "demo"
   }
 
 
