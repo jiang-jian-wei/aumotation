@@ -13,6 +13,7 @@
         <module>Chapter6</module>
         <module>Chapter9</module>
         <module>Charpter10</module>
+        <module>Charpter11</module>
     </modules>
     <properties>
         <mytestNg.version>6.10</mytestNg.version>
