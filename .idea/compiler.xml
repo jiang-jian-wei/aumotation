@@ -10,6 +10,7 @@
         <module name="Charpter11" />
         <module name="Chapter9" />
         <module name="Charpter10" />
+        <module name="myBatisDao" />
         <module name="Chapter6" />
         <module name="Chapter5" />
       </profile>
@@ -21,6 +22,7 @@
       <module name="Chapter9" target="1.8" />
       <module name="Charpter10" target="1.8" />
       <module name="Charpter11" target="1.8" />
+      <module name="myBatisDao" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
