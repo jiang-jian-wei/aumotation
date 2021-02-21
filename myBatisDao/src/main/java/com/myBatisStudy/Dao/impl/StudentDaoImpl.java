@@ -3,6 +3,7 @@ package com.myBatisStudy.Dao.impl;
 import com.myBatisStudy.Dao.StudentDao;
 import com.myBatisStudy.domain.Student;
 import com.myBatisStudy.utils.MyBatisUtil;
+import com.myBatisStudy.vo.QueryParam;
 import org.apache.ibatis.session.SqlSession;
 
 import java.util.List;
@@ -48,6 +49,11 @@ public class StudentDaoImpl implements StudentDao {
 
     @Override
     public List<Student> selectByObject(Student student) {
+        return null;
+    }
+
+    @Override
+    public List<Student> selectQueryParam(QueryParam queryParam) {
         return null;
     }
 }

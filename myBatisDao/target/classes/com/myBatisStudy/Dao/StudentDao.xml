@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.myBatisStudy.Dao.StudentDao">
-    <select id="selectById" parameterType="int" resultType="com.myBatisStudy.domain.Student">
+    <select id="selectById" parameterType="int" resultType="stu">
         select * from student where id = #{id}
     </select>
 
@@ -22,4 +22,9 @@
     <select id="selectByObject" resultType="com.myBatisStudy.domain.Student">
         select * from student where name=#{name} or age=#{age}
     </select>
+
+    <select id="selectQueryParam" resultType="com.myBatisStudy.domain.Student">
+        select * from student where name=#{p1} or age=#{p2}
+    </select>
+
 </mapper>
