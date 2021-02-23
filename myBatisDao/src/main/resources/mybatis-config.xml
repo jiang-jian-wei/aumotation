@@ -9,12 +9,6 @@
         <setting name="logImpl" value="STDOUT_LOGGING"/>
     </settings>
 
-    <typeAliases>
-        <typeAlias type="com.myBatisStudy.domain.Student" alias="stu"/>
-
-        <package name="com.myBatisStudy.vo"/>
-
-    </typeAliases>
 
     <!-- 环境配置 -->
     <environments default="development">

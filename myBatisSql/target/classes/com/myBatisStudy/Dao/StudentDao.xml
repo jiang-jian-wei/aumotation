@@ -3,11 +3,6 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.myBatisStudy.Dao.StudentDao">
-    <resultMap id="studentColumn" type="com.myBatisStudy.domain.Student">
-        <id column="id" property="id"/>
-
-    </resultMap>
-
 
     <select id="selectById" parameterType="int" resultType="com.myBatisStudy.domain.Student">
         select * from student where id = #{id}
@@ -17,9 +12,9 @@
         select * from student
     </select>
 
-    <select id="insertStudents" resultType="com.myBatisStudy.domain.Student">
-        insert into student values(#{id},#{name},#{email},#{age})
-    </select>
+    <insert id="insertStudents" useGeneratedKeys="true" keyProperty="id">
+        insert into student(name,email,age) values(#{name},#{email},#{age})
+    </insert>
 
     <select id="selectByNameOrAge" resultType="com.myBatisStudy.domain.Student">
         select * from student where name=#{myName} or age=#{myAge}
@@ -31,6 +26,26 @@
 
     <select id="selectQueryParam" resultType="com.myBatisStudy.domain.Student">
         select * from student where name=#{p1} or age=#{p2}
+    </select>
+
+    <select id="selectForEachOne" resultType="com.myBatisStudy.domain.Student">
+        select * from student
+        <if test="list !=null and list.size>0">
+            where id in
+            <foreach collection="list" open="(" close=")" separator="," item="myId">
+                #{myId}
+            </foreach>
+        </if>
+    </select>
+
+    <select id="selectForEachTwo" resultType="com.myBatisStudy.domain.Student">
+        select * from student
+        <if test="list !=null and list.size>0">
+            where id in
+            <foreach collection="list" open="(" close=")" separator="," item="student">
+                #{student.id}
+            </foreach>
+        </if>
     </select>
 
 </mapper>

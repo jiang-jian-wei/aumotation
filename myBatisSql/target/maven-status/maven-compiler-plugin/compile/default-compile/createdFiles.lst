@@ -1,0 +1,3 @@
+com\myBatisStudy\Dao\StudentDao.class
+com\myBatisStudy\utils\MyBatisUtil.class
+com\myBatisStudy\domain\Student.class

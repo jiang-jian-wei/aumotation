@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: com.myBatisStudy.MyTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.67 sec <<< FAILURE!
+testInsertStudents(com.myBatisStudy.MyTest)  Time elapsed: 0.329 sec  <<< FAILURE!
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.myBatisStudy.Dao.StudentDao.insertStudent
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedMapperMethod$0(MapperProxy.java:62)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:62)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:57)
+	at com.sun.proxy.$Proxy2.insertStudent(Unknown Source)
+	at com.myBatisStudy.MyTest.testInsertStudents(MyTest.java:49)
+
