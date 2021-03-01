@@ -16,6 +16,7 @@
         <module>Charpter11</module>
         <module>myBatisDao</module>
         <module>myBatisSql</module>
+        <module>myHttpClientStudy</module>
     </modules>
     <properties>
         <mytestNg.version>6.10</mytestNg.version>

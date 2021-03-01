@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Chapter9" />
+        <module name="myHttpClientStudy" />
         <module name="Chapter6" />
         <module name="Chapter5" />
         <module name="Charpter11" />
@@ -25,6 +26,7 @@
       <module name="Charpter11" target="1.8" />
       <module name="myBatisDao" target="1.8" />
       <module name="myBatisSql" target="1.8" />
+      <module name="myHttpClientStudy" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
