@@ -24,7 +24,7 @@
         <httpClient.version>4.1.2</httpClient.version>
         <extentReports.version>3.0.6</extentReports.version>
         <json.version>20201115</json.version>
-        <spring.boot.version>2.4.2</spring.boot.version>
+        <spring.boot.version>2.4.0</spring.boot.version>
         <lombok.version>1.18.18</lombok.version>
     </properties>
 

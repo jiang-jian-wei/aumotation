@@ -29,4 +29,16 @@
       <module name="myHttpClientStudy" target="1.8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Chapter5" options="" />
+      <module name="Chapter6" options="" />
+      <module name="Chapter9" options="" />
+      <module name="Charpter10" options="" />
+      <module name="Charpter11" options="" />
+      <module name="myBatisDao" options="" />
+      <module name="myBatisSql" options="" />
+      <module name="myHttpClientStudy" options="" />
+    </option>
+  </component>
 </project>

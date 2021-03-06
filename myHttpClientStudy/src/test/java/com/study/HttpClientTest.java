@@ -3,13 +3,11 @@ package com.study;
 import com.study.utils.HttpClientUtil;
 import com.study.utils.HttpUtil;
 import com.study.utils.TestServer;
-import org.apache.http.Consts;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URIBuilder;
-import org.apache.http.cookie.Cookie;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
@@ -17,8 +15,13 @@ import org.apache.http.util.EntityUtils;
 import org.json.JSONObject;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -28,15 +31,23 @@ import java.net.URISyntaxException;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
+@RunWith(SpringRunner.class)
+@SpringBootTest
+@SpringBootApplication
 public class HttpClientTest {
     @Value("${localHost}")
     private String localHost;
 
     @Value("${get.param.url}")
     private String getParamUrl;
+
+    @Value("${url.login}")
+    private String urlLogin;
+
+    @Value("${url.getUserList}")
+    private String urlGetUserList;
 
     @Autowired
     TestServer testServer;
@@ -138,9 +149,11 @@ public class HttpClientTest {
 
     @Test
     public void test3(){
-//        String result = testServer.getResult();
-//        System.out.println(result);
-        System.out.println(Consts.UTF_8.name());
+        String result = testServer.getResult();
+        System.out.println(result);
+
+        String url = HttpUtil.buildUrl(localHost,getParamUrl);
+        System.out.println(url);
     }
 
     @Test
@@ -157,7 +170,7 @@ public class HttpClientTest {
 
     @Test
     public void testLogin() throws IOException {
-        String url = "http://localhost:8888/login";
+        String url = HttpUtil.buildUrl(localHost,urlLogin);
 
         Map<String,String> params = new HashMap<>();
         params.put("username","zhangSan");
@@ -165,7 +178,7 @@ public class HttpClientTest {
 
         CookieStore cookies = HttpClientUtil.login(url,params);
 
-        String urlUserList = "http://localhost:8888/getUserList";
+        String urlUserList = HttpUtil.buildUrl(localHost,urlGetUserList);
 
         JSONObject paramJson = new JSONObject();
         paramJson.put("username","zhangSan");
