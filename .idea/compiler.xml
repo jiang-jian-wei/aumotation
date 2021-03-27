@@ -14,6 +14,7 @@
         <module name="Charpter11" />
         <module name="Charpter10" />
         <module name="myBatisDao" />
+        <module name="SpringNgDemo" />
         <module name="myBatisSql" />
       </profile>
     </annotationProcessing>
@@ -27,6 +28,7 @@
       <module name="myBatisDao" target="1.8" />
       <module name="myBatisSql" target="1.8" />
       <module name="myHttpClientStudy" target="1.8" />
+      <module name="SpringNgDemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
